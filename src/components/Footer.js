@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEdge, faWhatsapp, faFacebook, faTwitter, faInstagram, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faEdge, faWhatsapp, faFacebook, faTwitter, faInstagram, faLinkedinIn, faYoutube, faMedium } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -129,12 +129,14 @@ const Footer = () => {
                 <p className='text-xs text-white my-12 text-center underline underline-offset-4'>Security </p>
             <div>
                 <p className='text-sm text-white py-8'>We are a business built on the <br/>foundation of Christian values and belief</p>
-                <span className='space-x-2'>
+                <span className='space-x-1 flex'>
                     <FontAwesomeIcon icon={faFacebook} className='text-white text-sm'/>
                     <FontAwesomeIcon icon={faTwitter} className='text-white text-sm'/>
                     <FontAwesomeIcon icon={faInstagram} className='text-white text-sm'/>
                     <FontAwesomeIcon icon={faLinkedinIn} className='text-white text-sm'/>
+                    <FontAwesomeIcon icon={faMedium} className='text-white text-sm'/>
                     <FontAwesomeIcon icon={faYoutube} className='text-white text-sm'/>
+                    <img className=" w-8 h-4" src="/chat.png" alt='chat logo'/>
                 </span>
             </div>
         </div>
